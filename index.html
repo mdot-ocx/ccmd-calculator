@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h2 id="Calc">Tax Credit Calculator</h2>
+        <p>Discover your potential tax savings with our custom calculator. <br><em>Please note: The calculator works best in Google Chrome browser.</em></p>
+            <div id="calculator">
+        <table>
+          <tbody id="fare_section">
+          <tr>
+        <td><label for="fare">Average Employer Monthly Transit Fare</label></td>
+        <td><input name="fare" id="fare" type="number" min="0" step="0.01" value="0.00"></td></tr>
+          <tr>
+        <td><label for="contribution">Employer Contribution</label></td>
+        <td>
+        <select name="contribution" id="contribution"><option value="both" selected="">Choose an Option</option>                                  
+        <option value="employer_paid">Employer-paid</option>              
+        <option value="pre_tax">Pre-tax</option>                  
+        <option value="both">Both</option>                            
+        </select>                              
+        </td>
+          </tr>
+          </tbody>
+          <tbody id="employer_section">
+          <tr>
+        <td colspan="2">
+          <h3>Employer Paid Benefit</h3></td></tr>
+          <tr>
+        <td><label for="employer_value">Value Provided by Employer</label></td>
+        <td><input name="employer_value" id="employer_value" type="number" min="0" max="255" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="tax_credit">MD Commuter Tax Credit</label></td>
+        <td><input name="tax_credit" id="tax_credit" type="number" readonly="" max="100" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="net_EP_cost_employer">Net Cost to Employer</label></td>
+        <td><input name="net_EP_cost_employer" id="net_EP_cost_employer" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="net_EP_cost_employee">Net Cost to Employee</label></td>
+        <td><input name="net_EP_cost_employee" id="net_EP_cost_employee" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          </tbody>
+          <tbody id="benefit_section">
+          <tr>
+        <td colspan="2">
+          <h3>Pre-Tax Benefit</h3></td>
+          </tr>
+          <tr>
+        <td><label for="avg_deduction">Average Deduction</label></td>
+        <td><input name="avg_deduction" id="avg_deduction" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="payroll_tax_saved">Payroll Tax Saved by Employer and
+          Employee</label></td>
+        <td><input name="payroll_tax_saved" id="payroll_tax_saved" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="income_tax_saved">Employee Federal, State, and Local
+          Income Tax Saved</label></td>
+        <td><input name="income_tax_saved" id="income_tax_saved" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="total_employee_savings">Total Employee Savings</label></td>
+        <td><input name="total_employee_savings" id="total_employee_savings" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="net_benefit_cost_employer">Net Cost to Employer</label></td>
+        <td><input name="net_benefit_cost_employer" id="net_benefit_cost_employer" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          <tr>
+        <td><label for="net_benefit_cost_employee">Net Cost to Employee for
+          Transit Fare</label></td>
+        <td><input name="net_benefit_cost_employee" id="net_benefit_cost_employee" type="number" readonly="" step="0.01" value="0.00"></td>
+          </tr>
+          </tbody>
+        </table>
+        <small>Note
+        that employer and employee tax savings depend on average employee wages and tax
+        rates.  These calculations make general assumptions to provide a sense of
+        potential benefits.<br>
+        </small>           
+        </div>
+            <style>
+                
+                .hide {
+                    opacity:0;
+                    visibility:collapse;
+                    transition: visibility 0s, opacity 0.5s;
+                }
+                
+                #calculator {
+                    width:650px;
+                    max-width:100%;
+                }
+                
+                #calculator * {
+                    box-sizing:border-box;
+                    font-family:Calibri, arial, sans-serif;
+                }
+                
+            
+                #calculator table {
+                    width:100%;
+                    margin-bottom:auto;
+                    border-collapse: collapse;
+                }
+                
+                #calculator tbody {
+                    transition: visibility 0.5s, opacity 0.5s;
+                }
+                
+                #employer_section, #benefit_section {
+                    background-color: #f7f7f7;
+                }
+                
+                #calculator td {
+                    padding:5px;
+                    padding-bottom:10px;
+                }
+                
+                
+                #calculator table h3 {
+                    background: #eaeaea;
+                    padding: 8px 12px;
+                    margin:-5px;
+                }
+                
+                #calculator label {
+                    display:block;
+                    text-align:right;
+                    font-weight:bold;
+                }      
+                
+                #calculator select, #calculator input {
+                    width:100%;
+                    border: 1px solid gray;
+                    padding: 4px 8px 4px 8px;
+                    height: auto !important;
+                }
+                
+                #calculator select {
+                    padding-left:3px;
+                }
+                
+                #calculator input[readonly] {
+                    border: 0;
+                    background: transparent;
+                }
+            
+            </style>
+        <script>    
+                $(document).ready(function() {
+                    
+                    $("#contribution").change(function() {             
+                        
+                        let contribution_type = $(this).val();              
+                        
+                        // hide employer section if pre-tax; show otherwise
+                        if (contribution_type=="pre_tax") {
+                            $("#employer_section").addClass("hide");
+                            $("#employer_value").val(Decimalize(0));                  
+                        } else {
+                            $("#employer_section").removeClass("hide");
+                        }
+                                        
+                        // hide benefit section if employer-paid; show otherwise
+                        if (contribution_type=="employer_paid") {
+                            $("#benefit_section").addClass("hide");
+                        } else {
+                            $("#benefit_section").removeClass("hide");
+                        }
+                        
+                        Calculate();
+                    });
+                    
+                    $("input:not([readonly])").change(function() {
+                        Calculate();
+                    })
+                    
+                    function Calculate() {
+                        
+                        // ASSUMPTIONS              
+                        let payroll_tax_rate = 0.0765,
+                            federal_tax_rate = 0.15,
+                            state_tax_rate = 0.0475,
+                            local_tax_rate = 0.02375;
+                        
+                        // USER-INPUT VALUES              
+                        let fare = parseFloat($("#fare").val()),
+                            employer_value = parseFloat($("#employer_value").val());
+                        
+                        $("#fare").val(Decimalize(fare));
+                        $("#employer_value").val(Decimalize(employer_value));
+                        
+                        
+                        // CALCULATIONS              
+                        let tax_credit = -Math.min(employer_value,200)*0.5;
+                        $("#tax_credit").val(Decimalize(tax_credit));
+                        
+                        let net_EP_cost_employer = (tax_credit+employer_value);
+                        $("#net_EP_cost_employer").val(Decimalize(net_EP_cost_employer));
+                        
+                        let net_EP_cost_employee = (fare-employer_value);
+                        $("#net_EP_cost_employee").val(Decimalize(net_EP_cost_employee));
+                        
+                        let avg_deduction = (fare-employer_value);
+                        $("#avg_deduction").val(Decimalize(avg_deduction));              
+                        
+                        let payroll_tax_saved = (avg_deduction * payroll_tax_rate);
+                        $("#payroll_tax_saved").val(Decimalize(payroll_tax_saved));
+                        
+                        let income_tax_saved = (avg_deduction * (federal_tax_rate+state_tax_rate+local_tax_rate));
+                        $("#income_tax_saved").val(Decimalize(income_tax_saved));
+                        
+                        let total_employee_savings = (payroll_tax_saved + income_tax_saved);
+                        $("#total_employee_savings").val(Decimalize(total_employee_savings));              
+                        
+                        let net_benefit_cost_employer = (net_EP_cost_employer - payroll_tax_saved);
+                        $("#net_benefit_cost_employer").val(Decimalize(net_benefit_cost_employer));       
+                        
+                        let net_benefit_cost_employee = (net_EP_cost_employee - total_employee_savings);
+                        $("#net_benefit_cost_employee").val(Decimalize(net_benefit_cost_employee));
+                    }
+                    
+                    function Decimalize(n) {
+                        return parseFloat(n).toFixed(2);
+                    }
+                    
+                });
+            
+            </script>        
+        
+    </body>
+</html>
