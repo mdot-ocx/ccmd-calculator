@@ -1,0 +1,574 @@
+{
+    "destination_lat": 39.26,
+    "destination_long": -76.71,
+    "fuel_type": "gasoline",
+    "options_details": [
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 0.0,
+                    "accident_reduction ($)": 0.0,
+                    "additional_information": [
+                        [],
+                        []
+                    ],
+                    "annually_VMT_reduction": 0.0,
+                    "driving_time_per_day": 43.36290394849412,
+                    "emission_pollution_reduction ($)": 0.0,
+                    "fuel_cost_reduction ($)": 0.0,
+                    "fuel_reduction (gallon)": 0.0,
+                    "option_name": "Driving",
+                    "system_congestion_reduction ($)": 0.0,
+                    "travel_time_change (min)": 0.0,
+                    "travel_time_per_day (min)": 43.36290394849412
+                }
+            ],
+            "option_status": "succeed"
+        },
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 0.0,
+                    "accident_reduction ($)": 0.0,
+                    "additional_information": [
+                        [],
+                        []
+                    ],
+                    "annually_VMT_reduction": 0.0,
+                    "driving_time_per_day": 41.55502238335403,
+                    "emission_pollution_reduction ($)": 0.0,
+                    "fuel_cost_reduction ($)": 0.0,
+                    "fuel_reduction (gallon)": 0.0,
+                    "option_name": "Change departure time to off-peak hous",
+                    "system_congestion_reduction ($)": 0.0,
+                    "travel_time_change (min)": -1.807881565140093,
+                    "travel_time_per_day (min)": 41.55502238335403
+                }
+            ],
+            "option_status": "succeed"
+        },
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 529912.9927325519,
+                    "accident_reduction ($)": 0.00034777709852236004,
+                    "additional_information": [
+                        [],
+                        []
+                    ],
+                    "annually_VMT_reduction": 1617.5679001040003,
+                    "driving_time_per_day": 43.36290394849412,
+                    "emission_pollution_reduction ($)": 760.1303946353604,
+                    "fuel_cost_reduction ($)": 10366.104148553804,
+                    "fuel_reduction (gallon)": 56.956616200845076,
+                    "option_name": "Reduce one commute day per week",
+                    "system_congestion_reduction ($)": 196.6962566526464,
+                    "travel_time_change (min)": 0.0,
+                    "travel_time_per_day (min)": 43.36290394849412
+                }
+            ],
+            "option_status": "succeed"
+        },
+        {
+            "option_result": [],
+            "option_status": "failed"
+        },
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 2531493.76366276,
+                    "accident_reduction ($)": 0.0017388854926118,
+                    "additional_information": [
+                        [],
+                        []
+                    ],
+                    "annually_VMT_reduction": 8087.83950052,
+                    "driving_time_per_day": 0,
+                    "emission_pollution_reduction ($)": 1795.4799731768023,
+                    "fuel_cost_reduction ($)": 51830.52074276902,
+                    "fuel_reduction (gallon)": 284.7830810042254,
+                    "option_name": "Carpooling",
+                    "system_congestion_reduction ($)": 983.481283263232,
+                    "travel_time_change (min)": 0.0,
+                    "travel_time_per_day (min)": 43.36290394849412
+                }
+            ],
+            "option_status": "succeed"
+        },
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 1910377.19023242,
+                    "accident_reduction ($)": 0.0013122399230031,
+                    "additional_information": [
+                        [
+                            {
+                                "suggested route": {
+                                    "arrival_time": "2019-08-27T10:18:21",
+                                    "departure_time": "2019-08-27T08:30:00",
+                                    "destination": [
+                                        38.986968,
+                                        -76.943264
+                                    ],
+                                    "distance": 55062.0,
+                                    "energy_consumption": 57612.68294415342,
+                                    "energy_saving": 186420.0,
+                                    "incentive_flag": "Yes",
+                                    "is_alt_dep": false,
+                                    "is_alt_route": false,
+                                    "mode": "multimodal",
+                                    "origin": [
+                                        39.000782,
+                                        -76.876916
+                                    ],
+                                    "original": 0,
+                                    "points": 38.879999999999995,
+                                    "points_resources": [
+                                        {
+                                            "point_pool_id": "92227c36-e2f6-4854-aa6d-f730bf300aac",
+                                            "point_value": 38.879999999999995
+                                        }
+                                    ],
+                                    "points_resources_ridesharing": [],
+                                    "routes": [
+                                        {
+                                            "node_latitude": 39.180086,
+                                            "node_longitude": -76.90312,
+                                            "node_mode": "driving",
+                                            "node_mode_detail": "Driving to the PnR location @ Clarksville",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "mncnFhfktMwAiEc@}AKw@WuCMw@YqAVSVWNYRk@Lg@DYy@Ka@M]Mc@WOK]c@mEgHiCiDwBqBiBsAYlAw@hEg@vBi@fCe@xBw@nCa@lAgB`EsBfEAH?JaCrEwCdGaBbD{AxCoApC}BvFoAlDqA~DoAnEoAnFc@tBoHja@eC`NsA|F[fAmApDeBjEu@|AgBfDq@dAuCjE{L`RsVn_@cBvCgApB_C`FSLGHmBvDgAlByClEy@bB}@|BcCoCs@y@UGaAaAY[Y[",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T08:30:00",
+                                            "seg_distance": 5947,
+                                            "seg_traveltime": 357,
+                                            "segment_travel_time": 0.0
+                                        },
+                                        {
+                                            "node_latitude": 39.2097878,
+                                            "node_longitude": -76.9395923,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to Clarksville Park & Ride",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "edinFlgrtMXZBBTV\\\\b@b@TF~@iBLWXX@BZZ\\\\OZ",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T08:35:57",
+                                            "seg_distance": 242,
+                                            "segment_travel_time": 184
+                                        },
+                                        {
+                                            "node_latitude": 39.208347,
+                                            "node_longitude": -76.940174,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "335",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "Clarksville Park & Ride",
+                                            "node_polyline": "e{hnF`krtMNW^^D@HCnB{CBMAECGe@e@_@a@KCMDmA\\[f@g@f@EVO\\}@lBhAtAhBzB^`@j@j@d@b@pAkDbE}Kz@yBl@yAj@oAr@{Az@gBdAoBfAmB`A{AxBkDzGiKtAqB|FwIrMcSrB_Dt@oAx@{A~@cBh@iAb@cA^eAh@}A\\eApAuEh@_C`@uBl@qDx@wEbA{Fz@oEdA{Fn@qDv@eEj@qCb@qBj@}Bj@yBv@iCz@gCdAyChAwCdAcCtAuC|EsJ~G_N~A_D~@mBr@wAr@uAj@kAd@gAb@eAd@qAb@wAh@aBXiAZoALe@Z{AX{AZiBVaBReBP}AJqATqDNaEFkD@_@DsF?iI@gHBmHBuDFmCLqDBs@LcBVeDZwC^uCb@{Cl@_Dv@uDl@wBT_AZgAPo@J[bBgHtCqLxA_GpBaIxA{FRy@t@kCx@_Dd@aBn@_CRq@z@iC~@qC`@oAXcAXeANm@f@qBVeAtEaRtAoF^aB~EyRHYt@qCz@eCP_@X_@^OZEXBZJZVR`@Jb@Bf@Af@I`@Q^UXYNWF[AWGc@Q_Ac@[UcAm@eAi@aDaBOIg@pBG?E@IFEHAN@P@HBBHD@A@B",
+                                            "node_sequence": 2,
+                                            "note_travel_time": "2019-08-27T08:39:01",
+                                            "seg_distance": 10284,
+                                            "segment_travel_time": 720
+                                        },
+                                        {
+                                            "node_latitude": 39.17470429999999,
+                                            "node_longitude": -76.8510024,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to Broken Land Parkway and Snowden River Parkway",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "{hbnFv}`tMSIAAWKSl@IWGOd@mBLDLHHHBA@?@?@??@@?@?@??@@?BBN[XaAJ_@_Aa@{@g@yBw@k@Sg@Wi@W[OkDcBSIMIgAg@YMc@QEC",
+                                            "node_sequence": 3,
+                                            "note_travel_time": "2019-08-27T08:51:01",
+                                            "seg_distance": 672,
+                                            "segment_travel_time": 554
+                                        },
+                                        {
+                                            "node_latitude": 39.178068,
+                                            "node_longitude": -76.847742,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "503",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "Broken Land Parkway and Snowden River Parkway",
+                                            "node_polyline": "}}bnFji`tMCRg@OKCq@Qi@MqAUm@EUA[Aq@?K?o@Bu@B[BiAPODg@Ji@NQFOFo@VQFg@XWL[RYRg@\\QJy@h@}@n@KF{AfAa@Xw@h@}@l@]VcAn@eAaEQw@GWAOACAIAKAWEi@C_@?AC_@A_@?g@Aa@?[@Q?q@Bo@Bc@D_@BWH{@JuBB}@?GB}@?GB}@?gA@s@AoA?qAGuAEaAEc@CSG[EWOo@Ui@M_@Ua@Ya@CC_@e@IIQQGJi@bA@Vq@hBELELCL?D?F?DDJDHHJJJFJb@ZNRNHFBD?F?J?H?^Aj@Cx@OLAEc@CSG[EWOo@Ui@M_@Ua@Ya@CC_@e@IIQQ[Y_@Sa@Qa@McAOIAaAIWCmAIIAm@QQKKCQICAIE]SYSGEOM]]IIOS[_@AAQSGISWe@m@SSOQUSECa@]?A?A?A?A?A?AAA?A?AAA?AA??AAA?AA?AAA?A??AA?A?A?A?A?A?A@A??@A?A@A@?@M?OAe@Cc@EC?A?E?GAI?O?[@]FWFKBKDSHOHQJQJGDm@h@aAx@k@f@k@d@e@d@KLY\\ANKREHADKVELAHCHQ~@EFE^?JAPAT?B?N?N?H?D@P@P@LF\\BVFVFTDJJ^FRHPJPLRJLBDVV@?VXZVBB~BvBNPf@b@TT@?VXNN^ZVZb@j@R^Tf@L^Pb@Ld@Ld@@HF`@F^Fn@Bf@B\\?R?D?B?T?L?H?`@AXCTC\\CNABGZU`AGRYnAEVOv@G^It@En@AVAZ?b@B`@?JBTBN?BD\\DV@XBZ?Z@R?JCb@oAC_AC}@E_@Ck@EcCOaE[iAKy@GuAOK?k@Ee@?C?]?a@@k@Ha@Hc@HaAXQFo@XC@a@XQLUPSNAB[XQR[b@s@jAS^a@~@CHy@tBe@lAy@tBcBrEcBpEEHs@lB{@xBm@~Aw@tBITCHWr@O\\]x@iA|Cu@tBiCtGm@~AiA|C_@~@s@bBQ`@e@v@SZY^Y\\UVGFOLKJWRWPOFSJGB_@L_@LGBUDWF}@PsAXwEbAiB`@oANq@D]@M?W?C?KCWEi@MUGQIo@Yg@UMGIEUI_@KSIWISCa@Eg@AW?cA?aA?Q?E?yAAiB?i@?W??}@?kF?eAyAB?a@@GBCDCVMRKDE@C?A@E@I?GAcAR?",
+                                            "node_sequence": 4,
+                                            "note_travel_time": "2019-08-27T09:00:15",
+                                            "seg_distance": 8031,
+                                            "segment_travel_time": 1440
+                                        },
+                                        {
+                                            "node_latitude": 39.21464599999999,
+                                            "node_longitude": -76.8639314,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to COLUMBIA MALL & SOUTH RING RD eb",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "qbjnFpnctM@`A?FAHADFJDJDDD??RLBFH?RR?b@?x@?J?J?F?FAFAHAHCLGHEFEHENOHIHMBIBI@K@M?M?K?I?MA_@@O?OBQ@A",
+                                            "node_sequence": 5,
+                                            "note_travel_time": "2019-08-27T09:24:15",
+                                            "seg_distance": 325,
+                                            "segment_travel_time": 248
+                                        },
+                                        {
+                                            "node_latitude": 39.212966,
+                                            "node_longitude": -76.86354899999999,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "150",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "COLUMBIA MALL & SOUTH RING RD eb",
+                                            "node_polyline": "axinFdlctMKE@K@ABMDOBKBKFW@I@GBS?M@g@?wCnCCv@AT?V?@oABi@Bi@LwB@UD}@Bq@@a@Ag@Cc@?CE]Ig@EOGWIWMWMUOWIMWWSQUOQKIEWGSGWCE?GCK?_ECgAA{F?qAB_@?Q@Q@C?S@[Bg@DiANgAP{@NA@u@Rg@LC@eBr@SF{Af@m@PE@a@Je@H]BW@a@A]AG?g@EWCu@We@OWKOGa@Sq@[sDqBoAi@a@Um@WgAo@s@a@s@k@{@s@WQu@u@MOm@y@CGo@eAw@iBWo@Oe@Y}@Os@Ke@Mo@EWS{AMeAI{@?EEi@Cq@AOAwA@kAF}ADs@Hw@Fm@De@Hc@PaAJg@FUR{@HUPq@j@kBt@{BPo@Le@FSLc@HWp@}BHE@ABCFOFMDIFIHKJMJGHGPGLEF?@AN?H?F@F@HBHBDBDBNJDDFHJNDJBHDPBL@J@N?L?JAJAJAJCPENGJEHOROLOHA@WHK@O@W@WEKCE?C?OBkAk@WMw@_@{@a@qB_AOIcBy@m@Ys@]w@_@k@YIEkCqAcD_BMIwBgAIEuAu@c@UeAi@kFqCi@YeB}@eLcGmE}BUMoImEuAs@g@WCCq@]mAu@i@[YSg@a@OMw@m@{@w@kAiAOOe@i@cBkBe@i@sAyACEeBmB}J_LcCoCeDsD[]mBwBgAqAu@_ASUeAsAaAsAcCgDuByCGKeBcCQUcBcCiA{A{@aA{@_AAAUSs@o@s@o@{AkAsA{@w@e@_Ae@mAk@s@[oAc@iBi@s@Qu@Oc@IwB[wFq@sOiB}Dc@aD_@kC]yGy@gAMqAQ}C_@OAqDe@aCYm@IuGw@G?eAMgAMs@Is@IoBQmAKc@Em@Uy@IwAOiBUm@IcCYqDe@}AYmAQ]GWESC[G]GMCWGUGWGOCOGWKYKSI[MYM]OWOYQSOk@]a@USMu@g@[U_Am@IGk@]OMOMOK?ASOMOKMY_@GKAAEIKOEIEIIMMSGMIOMUEICCGOIOGMUOiBuDYm@]w@Q]q@wA_AqBSa@g@gAEKm@kAe@aAg@cAi@iAi@eAO_@cAsBWg@_AqB]y@c@_Ae@aAaBiDe@aAaAqBWe@O[w@_BGKiAaCiAaCmAeC_AoBeAwBy@eBWk@e@aAm@mAi@kAi@gAa@w@_AoB}@kBkCqF_AiBiA_CeAuB_AoBkByDk@iAUe@i@gA{EaKUe@yA}Cy@_B_@y@KUACIOSg@O_@KYIYIUI]K]G]GWEUCOGc@E[Gg@Ei@C_@Ca@AUAi@?g@?e@@o@@i@?EBa@@S@U@UBWD[DWJu@Jk@RaAXiANg@Vs@HWNc@HSHSTk@`@_A`AiBh@}@z@uAJMtBkDfAgBj@}@BEfAgBxAaCdBqCnCoEfDsFhDwFbAaBz@uAJSPW|@_B@Av@_BP]@Ad@_AVi@Vi@HSDMRc@HUXu@FMh@}APe@JYZ{@ZaAf@eBd@}Ad@kBFU^sATeAECvB{JlA_It@cFrB}Lt@kEVyBBQN_BB[\\oAN[NQFEJGNGVEh@?LD|@ZTFfAXLDFg@?AAc@EIYMYD{@QOGCEEKCkF@U[?yABAzADX`@nBBNLNPBVDJ@RANFz@PVNRN@VG`@gAYUG}@[ME_A[Wm@Oa@Ia@IoADoEAgAEyAGgCGeA]cEi@aEc@kCi@{CeC{Po@sDMw@Ig@aAkGMy@W{Ae@wC[gBIg@Ii@k@wD]wB{AmJm@sDWqBMu@]qBUsAe@}C_@aCKo@PG",
+                                            "node_sequence": 6,
+                                            "note_travel_time": "2019-08-27T09:28:23",
+                                            "seg_distance": 19725,
+                                            "segment_travel_time": 1425
+                                        },
+                                        {
+                                            "node_latitude": 39.2881977,
+                                            "node_longitude": -76.7304654,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to INGLESIDE AVE & CHRYSLER LN fs sb",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "gnxnFllisMDTXz@@HBDBDDH@BBBBDBBBBFBd@Nd@AZCl@C@\\\\At@C",
+                                            "node_sequence": 7,
+                                            "note_travel_time": "2019-08-27T09:52:08",
+                                            "seg_distance": 219,
+                                            "segment_travel_time": 181
+                                        },
+                                        {
+                                            "node_latitude": 39.286646,
+                                            "node_longitude": -76.73139499999999,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "37",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "INGLESIDE AVE & CHRYSLER LN fs sb",
+                                            "node_polyline": "qdxnFdrisM?MH?RANANARAJATC`@G@APCz@Mb@EVSrDqARGNCHCFABAXCLAN?P?N@RBJBNDXJb@PPHLFXNJF|@d@VNXR?@^T?@B@j@`@v@b@d@V`DlBbAl@`BbAj@^ZNXNNHNFRFh@JV@L?N?XC\\Cb@K\\I\\IBARGDAXIfAWbBc@nBe@l@Mx@Q`AUzA_@`Ds@XGx@QLEd@INEb@Kp@QjBa@dAW`@IDAjHcBrAYJCfBc@DAhAYHCdBa@`B_@t@Qr@Ml@MdASVGTETCPAJAJ?z@?b@AZ?Z@L@NB`@Hv@RLBB?TBH@D?T?tAAJ?D?L@T@PBN@`@DVBVDTFLDJDNJLJFJPVNVTd@LX@@DFLXFJDFf@n@b@^\\TNHTLl@^h@\\FD?A~BxAf@f@Zd@j@rArAiAj@]`Am@|@s@pCkDfBkCp@[PI^Ab@LdAtBd@nAV~@P~@X`CJ`@NPVJJ@X?JC~@e@`@K~AMhAOP?`@FlAAb@STEj@Ah@FnA`@|DrA`@X\\^Td@Nf@l@pDFx@@jACj@Ij@S|@]v@g@r@]XKH@DULSLk@Pg@Fa@BA?a@AUB[@Q?u@Ck@Ek@Mi@OGA]Kc@Oa@I[G[BK@g@N_@J_@BUAUMUOWYWc@EIAAKc@AI?W?K?g@AeA?W?C?U@a@Fa@Jg@@?Ng@L[@AHS@?LURWRSNOHIJIRMLEBAHA\\C\\?^DL?H?LA@AD?JGJIHKDMDK@I?I@K?IAMAOCYIMEGMKICKCKAI?a@Fu@Hw@DQ@I?M@IBKBIDGDIFSNEDGDEBG@E@E@G?E?C?MCGCKGGGCECCEICKAA?CAGEWIg@AKGa@AKKk@Ki@Oi@KY[}@Uc@c@{@EEIO[m@EIQYrAkBx@iAp@aA`@o@Va@Va@p@aAZc@r@}@bAaAXMVMFCb@KVGTGLEXMXQd@YhA}@VQvAeABAZSLIv@e@|@k@~@y@HE`@[^a@m@]uAq@mIcEcCkAo@[mAm@e@UoAo@QIkAk@uAs@KI]Wm@i@AAm@q@IIs@u@m@m@KKKOIIIOIQGo@?C@A?A?A?C?A?A?A?C?AAA?A?CAA?AAA?AAAAAAAAAAAA?AAA?A?A?A?AAA?A@A?A?A?A@A?A@s@EWQUWeAgAWWQQUSCKSUUUKKu@y@i@m@IIs@s@_D_DVk@Re@l@mA`@}@Ra@DGfA{Bp@wADK\\q@LOS_@c@}@MYUq@CIQo@Mm@U_BI}ACkAByABm@D_@Ho@Fa@Lu@BQRu@FONc@DKXs@LUh@{@d@k@HKHL",
+                                            "node_sequence": 8,
+                                            "note_travel_time": "2019-08-27T09:55:09",
+                                            "seg_distance": 9368,
+                                            "segment_travel_time": 1159
+                                        },
+                                        {
+                                            "node_latitude": 39.25851979999999,
+                                            "node_longitude": -76.70811859999999,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to Manokin, Baltimore, MD 21250, USA",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "wtrnFv`esMIMQ[mAdB[l@?@Uh@Ut@Qn@EPSlAKr@",
+                                            "node_sequence": 9,
+                                            "note_travel_time": "2019-08-27T10:14:28",
+                                            "seg_distance": 249,
+                                            "segment_travel_time": 233
+                                        },
+                                        {
+                                            "node_latitude": 39.26,
+                                            "node_longitude": -76.71,
+                                            "node_mode": "destination",
+                                            "node_mode_detail": "destination",
+                                            "node_mode_stop": "destination",
+                                            "node_polyline": "destination",
+                                            "node_sequence": 10,
+                                            "note_travel_time": "2019-08-27T10:18:21",
+                                            "seg_distance": 0,
+                                            "segment_travel_time": 0
+                                        }
+                                    ],
+                                    "source": "Google",
+                                    "total_travel_time": 149.35
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "suggested route": {
+                                    "arrival_time": "2019-08-27T18:56:52",
+                                    "departure_time": "2019-08-27T17:30:00",
+                                    "destination": [
+                                        38.986968,
+                                        -76.943264
+                                    ],
+                                    "distance": 47708.0,
+                                    "energy_consumption": 52409.66619905886,
+                                    "energy_saving": 130823.33333333334,
+                                    "incentive_flag": "Yes",
+                                    "is_alt_dep": false,
+                                    "is_alt_route": false,
+                                    "mode": "multimodal",
+                                    "origin": [
+                                        39.000782,
+                                        -76.876916
+                                    ],
+                                    "original": 0,
+                                    "points": 25.919999999999998,
+                                    "points_resources": [
+                                        {
+                                            "point_pool_id": "92227c36-e2f6-4854-aa6d-f730bf300aac",
+                                            "point_value": 25.919999999999998
+                                        }
+                                    ],
+                                    "points_resources_ridesharing": [],
+                                    "routes": [
+                                        {
+                                            "node_latitude": 39.180086,
+                                            "node_longitude": -76.90312,
+                                            "node_mode": "driving",
+                                            "node_mode_detail": "Driving to the PnR location @ Scaggsville",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "mncnFhfktMp@vBfCtGrCnGv@zBRf@V^VV`@^bAj@hDdB`Bx@t@b@b@\\t@fAxCzEpGxKhDtFhD|D|EzF~FdH`D`EnA~A|CnBzIjFnOnJ|FjDxFnD~AhAf@b@h@h@b@r@Xr@V|@XvATp@NV\\Xv@h@`InFz@n@|@kBfDiHlAaCz@sAf@m@~AaBdBaBlBwALIF?@?|By@fDeAZSZWR[N_@Lo@Fk@?URoDPeCX}C^}Dz@eNRiCL_B`@qC|@}FR{A\\aBvBaGd@eALO~@uBb@k@LAPOFYCYBe@J_@bAwDNm@NqAJ_@JWDAJGFMDQC]CGJi@R}@^gA^}@tCuFZk@HANMFS@WASIQIKKE_@CUPo@Ac@Qb@_C_@M",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T17:30:00",
+                                            "seg_distance": 6336,
+                                            "seg_traveltime": 458,
+                                            "segment_travel_time": 0.0
+                                        },
+                                        {
+                                            "node_latitude": 39.1462482,
+                                            "node_longitude": -76.90310389999999,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to Scaggsville Park & Ride",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "aw|mFjcktM^LS~@O~@Id@X?VH^RBNDJC\\CRGVCNEL[p@]p@Wf@i@dAMXSf@M`@Kb@GZGTIRKRD?DBD@HFBJ@F@F?HAHCFCFCDEDE@E@KVENENGl@Gb@I\\ENGP{@dDK^Cd@BL?JPTDFJHJDNBT@RFRILGPONOJWa@Sb@aCDSGC",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T17:37:38",
+                                            "seg_distance": 924,
+                                            "segment_travel_time": 737
+                                        },
+                                        {
+                                            "node_latitude": 39.14678500000001,
+                                            "node_longitude": -76.90869099999999,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "203",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "Scaggsville Park & Ride",
+                                            "node_polyline": "mz|mFhfltMoBaABKH]Fc@Fm@DODOJWDADADEBEBGBG@I?IAG?EAECGJi@FWJe@Ne@Na@HQTk@f@aA`AmBTc@Ta@Zk@HAFCFIBGBK@I?MASBi@FyAV_EH{A@OFu@Du@@MDi@Bg@JcBXyELmBVyADCDGBC@C@E@E@E@C?E@G?CAOEQIICECCEAEAEAE?C?E?SDGFEHYDQ@KAKASCg@IKA_@ImGy@cAOeAMC?s@K_@G_@Iq@Wa@SOKm@c@k@e@UQUSECCACA]IaAy@yFcFaIeH{@u@iAcAmAgAyAoAuD{CeBoAmA}@sCkBkC}AyDwBoBgAiCoAkAg@aBs@yAm@A?yAi@cE{A_H}BgFeB{@UmIsCKEw@Ys@UOGwAg@cBm@eBm@g@QqDoAu@W[Ky@Yq@[g@W_@QYOQMe@Yk@][Si@_@cBqAwCoCmCmCsBsByAyA_A}@qAqAkAmA}@}@uCgCcAy@c@_@g@_@_BeAYQyA_AcAi@qAu@ECsAu@SMy@e@sAs@o@]mEeC{A{@aB}@[Ou@c@kAo@u@c@iAo@w@e@y@e@{EmC{BoAcCuAmC{A{Ay@u@e@{@g@m@_@iAo@qAu@{@i@s@g@w@k@cDcC{AkA]W_Aq@e@_@gBuAQMeCkBaIoGcAw@a@[}BaBy@m@CMAEACCCQSIIa@c@KO[c@Yk@KWGKUg@M[e@}ASe@{AgFk@iB]aACEKSS_@MQQUIIYY_@Yu@a@KEGAYKe@M_@CKAk@Aa@Bk@Fq@Rc@RUL?@_@VOJQPc@j@U\\IPKTGL]|@Mb@Ib@E\\EVCR?@A^AZ?V@r@?Z@R@d@@t@FbDDlB?^@TAV?TAVATC^G`@?BId@IZI\\Sl@?@?B?@BP_@~@s@bBQ`@e@v@SZY^Y\\UVGFOLKJWRWPOFSJGB_@L_@LGBUDWFqCj@wEbAiB`@oANq@D]@M?W?C?KCWEi@MUGQIo@Yg@UMGIEUI_@KSIWISCa@Eg@AW?cA?aA?Q?E?yAAiB?i@?W??}@?kF?eAT?R?b@?x@?J?J?F?FA@?DAHAHCLG@AFCFEHENOHIHMBIBI?A@I@M?M?K?I?MA_@@O?C?KBQ@AJD",
+                                            "node_sequence": 2,
+                                            "note_travel_time": "2019-08-27T17:49:55",
+                                            "seg_distance": 10887,
+                                            "segment_travel_time": 960
+                                        },
+                                        {
+                                            "node_latitude": 39.212966,
+                                            "node_longitude": -76.86354899999999,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "150",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "COLUMBIA MALL & SOUTH RING RD eb",
+                                            "node_polyline": "axinFdlctMKE@K@ABMDOBKBKFW@I@GBS?M@g@?wCnCCv@AT?V?@oABi@Bi@LwB@UD}@Bq@@a@Ag@Cc@?CE]Ig@EOGWIWMWMUOWIMWWSQUOQKIEWGSGWCE?GCK?_ECgAA{F?qAB_@?Q@Q@C?S@[Bg@DiANgAP{@NA@u@Rg@LC@eBr@SF{Af@m@PE@a@Je@H]BW@a@A]AG?g@EWCu@We@OWKOGa@Sq@[sDqBoAi@a@Um@WgAo@s@a@s@k@{@s@WQu@u@MOm@y@CGo@eAw@iBWo@Oe@Y}@Os@Ke@Mo@EWS{AMeAI{@?EEi@Cq@AOAwA@kAF}ADs@Hw@Fm@De@Hc@PaAJg@FUR{@HUPq@j@kBt@{BPo@Le@FSLc@HWp@}BHE@ABCFOFMDIFIHKJMJGHGPGLEF?@AN?H?F@F@HBHBDBDBNJDDFHJNDJBHDPBL@J@N?L?JAJAJAJCPENGJEHOROLOHA@WHK@O@W@WEKCE?C?OBkAk@WMw@_@{@a@qB_AOIcBy@m@Ys@]w@_@k@YIEkCqAcD_BMIwBgAIEuAu@c@UeAi@kFqCi@YeB}@eLcGmE}BUMoImEuAs@g@WCCq@]mAu@i@[YSg@a@OMw@m@{@w@kAiAOOe@i@cBkBe@i@sAyACEeBmB}J_LcCoCeDsD[]mBwBgAqAu@_ASUeAsAaAsAcCgDuByCGKeBcCQUcBcCiA{A{@aA{@_AAAUSs@o@s@o@{AkAsA{@w@e@_Ae@mAk@s@[oAc@iBi@s@Qu@Oc@IwB[wFq@sOiB}Dc@aD_@kC]yGy@gAMqAQ}C_@OAqDe@aCYm@IuGw@G?eAMgAMs@Is@IoBQmAKc@Em@Uy@IwAOiBUm@IcCYqDe@}AYmAQ]GWESC[G]GMCWGUGWGOCOGWKYKSI[MYM]OWOYQSOk@]a@USMu@g@[U_Am@IGk@]OMOMOK?ASOMOKMY_@GKAAEIKOEIEIIMMSGMIOMUEICCGOIOGMUOiBuDYm@]w@Q]q@wA_AqBSa@g@gAEKm@kAe@aAg@cAi@iAi@eAO_@cAsBWg@_AqB]y@c@_Ae@aAaBiDe@aAaAqBWe@O[w@_BGKiAaCiAaCmAeC_AoBeAwBy@eBWk@e@aAm@mAi@kAi@gAa@w@_AoB}@kBkCqF_AiBiA_CeAuB_AoBkByDk@iAUe@i@gA{EaKUe@yA}Cy@_B_@y@KUACIOSg@O_@KYIYIUI]K]G]GWEUCOGc@E[Gg@Ei@C_@Ca@AUAi@?g@?e@@o@@i@?EBa@@S@U@UBWD[DWJu@Jk@RaAXiANg@Vs@HWNc@HSHSTk@`@_A`AiBh@}@z@uAJMtBkDfAgBj@}@BEfAgBxAaCdBqCnCoEfDsFhDwFbAaBz@uAJSPW|@_B@Av@_BP]@Ad@_AVi@Vi@HSDMRc@HUXu@FMh@}APe@JYZ{@ZaAf@eBd@}Ad@kBFU^sATeAECvB{JlA_It@cFrB}Lt@kEVyBBQN_BB[\\oAN[NQFEJGNGVEh@?LD|@ZTFfAXLDFg@?AAc@EIYMYD{@QOGCEEKCkF@U[?yABAzADX`@nBBNLNPBVDJ@RANFz@PVNRN@VG`@gAYUG}@[ME_A[Wm@Oa@Ia@IoADoEAgAEyAGgCGeA]cEi@aEc@kCi@{CeC{Po@sDMw@Ig@aAkGMy@W{Ae@wC[gBIg@Ii@k@wD]wB{AmJm@sDWqBMu@]qBUsAe@}C_@aCKo@PG",
+                                            "node_sequence": 3,
+                                            "note_travel_time": "2019-08-27T18:05:55",
+                                            "seg_distance": 19725,
+                                            "segment_travel_time": 1437
+                                        },
+                                        {
+                                            "node_latitude": 39.2881977,
+                                            "node_longitude": -76.7304654,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to INGLESIDE AVE & CHRYSLER LN fs sb",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "gnxnFllisMDTXz@@HBDBDDH@BBBBDBBBBFBd@Nd@AZCl@C@\\\\At@C",
+                                            "node_sequence": 4,
+                                            "note_travel_time": "2019-08-27T18:29:52",
+                                            "seg_distance": 219,
+                                            "segment_travel_time": 181
+                                        },
+                                        {
+                                            "node_latitude": 39.286646,
+                                            "node_longitude": -76.73139499999999,
+                                            "node_mode": "BUS",
+                                            "node_mode_detail": "37",
+                                            "node_mode_general": "TRANSIT",
+                                            "node_mode_stop": "INGLESIDE AVE & CHRYSLER LN fs sb",
+                                            "node_polyline": "qdxnFdrisM?MH?RANANARAJATC`@G@APCz@Mb@EVSrDqARGNCHCFABAXCLAN?P?N@RBJBNDXJb@PPHLFXNJF|@d@VNXR?@^T?@B@j@`@v@b@d@V`DlBbAl@`BbAj@^ZNXNNHNFRFh@JV@L?N?XC\\Cb@K\\I\\IBARGDAXIfAWbBc@nBe@l@Mx@Q`AUzA_@`Ds@XGx@QLEd@INEb@Kp@QjBa@dAW`@IDAjHcBrAYJCfBc@DAhAYHCdBa@`B_@t@Qr@Ml@MdASVGTETCPAJAJ?z@?b@AZ?Z@L@NB`@Hv@RLBB?TBH@D?T?tAAJ?D?L@T@PBN@`@DVBVDTFLDJDNJLJFJPVNVTd@LX@@DFLXFJDFf@n@b@^\\TNHTLl@^h@\\FD?A~BxAf@f@Zd@j@rArAiAj@]`Am@|@s@pCkDfBkCp@[PI^Ab@LdAtBd@nAV~@P~@X`CJ`@NPVJJ@X?JC~@e@`@K~AMhAOP?`@FlAAb@STEj@Ah@FnA`@|DrA`@X\\^Td@Nf@l@pDFx@@jACj@Ij@S|@]v@g@r@]XKH@DULSLk@Pg@Fa@BA?a@AUB[@Q?u@Ck@Ek@Mi@OGA]Kc@Oa@I[G[BK@g@N_@J_@BUAUMUOWYWc@EIAAKc@AI?W?K?g@AeA?W?C?U@a@Fa@Jg@@?Ng@L[@AHS@?LURWRSNOHIJIRMLEBAHA\\C\\?^DL?H?LA@AD?JGJIHKDMDK@I?I@K?IAMAOCYIMEGMKICKCKAI?a@Fu@Hw@DQ@I?M@IBKBIDGDIFSNEDGDEBG@E@E@G?E?C?MCGCKGGGCECCEICKAA?CAGEWIg@AKGa@AKKk@Ki@Oi@KY[}@Uc@c@{@EEIO[m@EIQYrAkBx@iAp@aA`@o@Va@Va@p@aAZc@r@}@bAaAXMVMFCb@KVGTGLEXMXQd@YhA}@VQvAeABAZSLIv@e@|@k@~@y@HE`@[^a@m@]uAq@mIcEcCkAo@[mAm@e@UoAo@QIkAk@uAs@KI]Wm@i@AAm@q@IIs@u@m@m@KKKOIIIOIQGo@?C@A?A?A?C?A?A?A?C?AAA?A?CAA?AAA?AAAAAAAAAAAA?AAA?A?A?A?AAA?A@A?A?A?A@A?A@s@EWQUWeAgAWWQQUSCKSUUUKKu@y@i@m@IIs@s@_D_DVk@Re@l@mA`@}@Ra@DGfA{Bp@wADK\\q@LOS_@c@}@MYUq@CIQo@Mm@U_BI}ACkAByABm@D_@Ho@Fa@Lu@BQRu@FONc@DKXs@LUh@{@d@k@HKHL",
+                                            "node_sequence": 5,
+                                            "note_travel_time": "2019-08-27T18:32:53",
+                                            "seg_distance": 9368,
+                                            "segment_travel_time": 1206
+                                        },
+                                        {
+                                            "node_latitude": 39.25851979999999,
+                                            "node_longitude": -76.70811859999999,
+                                            "node_mode": "WALKING",
+                                            "node_mode_detail": "Walk to Manokin, Baltimore, MD 21250, USA",
+                                            "node_mode_general": "WALKING",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "wtrnFv`esMIMQ[mAdB[l@?@Uh@Ut@Qn@EPSlAKr@",
+                                            "node_sequence": 6,
+                                            "note_travel_time": "2019-08-27T18:52:59",
+                                            "seg_distance": 249,
+                                            "segment_travel_time": 233
+                                        },
+                                        {
+                                            "node_latitude": 39.26,
+                                            "node_longitude": -76.71,
+                                            "node_mode": "destination",
+                                            "node_mode_detail": "destination",
+                                            "node_mode_stop": "destination",
+                                            "node_polyline": "destination",
+                                            "node_sequence": 7,
+                                            "note_travel_time": "2019-08-27T18:56:52",
+                                            "seg_distance": 0,
+                                            "segment_travel_time": 0
+                                        }
+                                    ],
+                                    "source": "Google",
+                                    "total_travel_time": 108.26666666666667
+                                }
+                            }
+                        ]
+                    ],
+                    "annually_VMT_reduction": 6103.441502340001,
+                    "driving_time_per_day": 43.36290394849412,
+                    "emission_pollution_reduction ($)": 1354.9486218418444,
+                    "fuel_cost_reduction ($)": 39113.60399386902,
+                    "fuel_reduction (gallon)": 214.9099120542254,
+                    "option_name": "Carpooling",
+                    "system_congestion_reduction ($)": 742.178486684544,
+                    "travel_time_change (min)": 214.25376271817254,
+                    "travel_time_per_day (min)": 257.6166666666667
+                }
+            ],
+            "option_status": "succeed"
+        },
+        {
+            "option_result": [],
+            "option_status": "failed"
+        },
+        {
+            "option_result": [
+                {
+                    "GHG_emission_reduction ($)": 2531493.76366276,
+                    "accident_reduction ($)": 0.0017388854926118,
+                    "additional_information": [
+                        [
+                            {
+                                "suggested route": {
+                                    "arrival_time": "2019-08-27T08:30:00",
+                                    "departure_time": "2019-08-27T06:47:00",
+                                    "destination": "39.26,-76.71",
+                                    "distance": 26644,
+                                    "energy_consumption": 0,
+                                    "energy_saving": -1.0,
+                                    "incentive_flag": "Yes",
+                                    "is_alt_dep": false,
+                                    "is_alt_route": false,
+                                    "mode": "bicycling",
+                                    "origin": "39.180086,-76.90312",
+                                    "original": 0,
+                                    "points": 50,
+                                    "points_resources": [
+                                        {
+                                            "point_pool_id": "92227c36-e2f6-4854-aa6d-f730bf300aac",
+                                            "point_value": 50
+                                        }
+                                    ],
+                                    "points_resources_ridesharing": [],
+                                    "route_polyline": "mncnFhfktM{BgHq@eGYqAVSf@q@`@sADYy@Ka@MaAe@m@o@mEgHiCiDwBqBiBsAsD_CiIcDcLgE{D}AeA}@kCyDeVm^}FeIaBmAyAk@gCS_BNwC~@_PvFuETmL\\gTr@mCLqATiD^sAD}QvB_BPa@DAOU_AQw@qAmFi@oBo@wDKwAYoDCqFNmBEqAB}@_DSgCSkCGoAZmAr@_ArAUd@YVi@C[FIJ_@F[g@i@i@c@UMWkA_CWa@m@GUAUSa@]QYc@Ke@Us@Ok@CQOw@BQQiAu@m@c@o@_AEU[Jw@Iw@]mAwA]g@i@WSSG[GUa@MOQCWk@kBIeA_@k@AWHs@a@y@Gm@Z}BEcAP_B\\qB~@wB|@eDRsBSuBCiAJcA?u@a@sA_@y@MiAGSTYf@c@F_@Cs@D_@Yg@@Ul@}@\\qB^u@\\[fAoAXEN[E{@Hw@Aq@Lg@t@c@NWDcBD{AB[Uo@Ku@Bs@FqAG}Be@yAEi@_@A\\oEIc@_@cASc@URe@Hg@?_DYoDYiA?[DSoAm@iAHcBMiANi@c@Qq@]mAkAeEmGyBgDmAwCm@kCQsBa@gLKaAq@aCo@gA{@}@mHoF}AyAk@eAi@yAkAyC{AcBwAw@sB]eBAoAJwBf@wBhAo@RmAl@cARw@DcAPgDXoBfA{A`@w@K_AQ{@g@gBgBoAmAaBiAgAYqB@_HXaBCiAS_Bm@qA}@w@{@oIoMu@sA}@yBs@_COaAy@\\gAV[uAq@}BU[c@MABADGBOECKoCeAaFqCG{@Fi@DuBGc@i@w@AUa@uEeAZ_@s@Cs@?gAW{@[cD_Aw@WOkCW?[\\kFhBoTf@cG_DMeAEp@uHf@qFh@sC^}AtA}DgCmDaDwEmEgHoIcRmD}HgDsGyC_G}AqFYcEKw@[{@iDuFqC{DUm@S_Bw@_IMg@]g@aCqAOy@HeAd@{CBe@K]_Ac@}AOc@]g@uBYk@IKQMRkCH}@B[C{@eB_JN}An@iDZw@jAsAjB}@dBsAx@eA`AsBpDwJv@uAvEeH`@eA`@}B`AoNBmBKqC]_CkByFeGgPe@{Bk@sFo@uOh@}PnAwYEm@cByFuHkVsFiQc@kDQcL]}V]cM_@qH{AsLyEu^mD{Wi@}D_@yC]cC`@Mz@WxDgAvKyCbDaAzBkA`Ac@dHkBbAElCJl@G|@e@hCcEXmAj@uMHm@f@y@nKoNbMaX|@sAB?F?LIHe@GQbA{ElAgFr@qCHWQMi@a@oEeE_DuCiAkAuAgCy@eCc@mCMiDVwEl@_Dv@sBv@qAd@k@Q[iBrCUj@aAdEKr@",
+                                    "routes": [
+                                        {
+                                            "node_latitude": 39.076184,
+                                            "node_longitude": -77.042895,
+                                            "node_mode": "bike",
+                                            "node_mode_detail": "",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T06:47:00",
+                                            "seg_distance": 0.0,
+                                            "segment_travel_time": 0.0
+                                        },
+                                        {
+                                            "node_latitude": 39.076184,
+                                            "node_longitude": -77.042895,
+                                            "node_mode": "destination",
+                                            "node_mode_detail": "",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "",
+                                            "node_sequence": 2,
+                                            "note_travel_time": "2019-08-27T08:30:00",
+                                            "seg_distance": 0.0,
+                                            "segment_travel_time": 0.0
+                                        }
+                                    ],
+                                    "source": "Google",
+                                    "total_travel_time": 103
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "suggested route": {
+                                    "arrival_time": "2019-08-27T17:30:00",
+                                    "departure_time": "2019-08-27T15:47:00",
+                                    "destination": "39.26,-76.71",
+                                    "distance": 26644,
+                                    "energy_consumption": 0,
+                                    "energy_saving": -1.0,
+                                    "incentive_flag": "Yes",
+                                    "is_alt_dep": false,
+                                    "is_alt_route": false,
+                                    "mode": "bicycling",
+                                    "origin": "39.180086,-76.90312",
+                                    "original": 0,
+                                    "points": 50,
+                                    "points_resources": [
+                                        {
+                                            "point_pool_id": "92227c36-e2f6-4854-aa6d-f730bf300aac",
+                                            "point_value": 50
+                                        }
+                                    ],
+                                    "points_resources_ridesharing": [],
+                                    "route_polyline": "mncnFhfktM{BgHq@eGYqAVSf@q@`@sADYy@Ka@MaAe@m@o@mEgHiCiDwBqBiBsAsD_CiIcDcLgE{D}AeA}@kCyDeVm^}FeIaBmAyAk@gCS_BNwC~@_PvFuETmL\\gTr@mCLqATiD^sAD}QvB_BPa@DAOU_AQw@qAmFi@oBo@wDKwAYoDCqFNmBEqAB}@_DSgCSkCGoAZmAr@_ArAUd@YVi@C[FIJ_@F[g@i@i@c@UMWkA_CWa@m@GUAUSa@]QYc@Ke@Us@Ok@CQOw@BQQiAu@m@c@o@_AEU[Jw@Iw@]mAwA]g@i@WSSG[GUa@MOQCWk@kBIeA_@k@AWHs@a@y@Gm@Z}BEcAP_B\\qB~@wB|@eDRsBSuBCiAJcA?u@a@sA_@y@MiAGSTYf@c@F_@Cs@D_@Yg@@Ul@}@\\qB^u@\\[fAoAXEN[E{@Hw@Aq@Lg@t@c@NWDcBD{AB[Uo@Ku@Bs@FqAG}Be@yAEi@_@A\\oEIc@_@cASc@URe@Hg@?_DYoDYiA?[DSoAm@iAHcBMiANi@c@Qq@]mAkAeEmGyBgDmAwCm@kCQsBa@gLKaAq@aCo@gA{@}@mHoF}AyAk@eAi@yAkAyC{AcBwAw@sB]eBAoAJwBf@wBhAo@RmAl@cARw@DcAPgDXoBfA{A`@w@K_AQ{@g@gBgBoAmAaBiAgAYqB@_HXaBCiAS_Bm@qA}@w@{@oIoMu@sA}@yBs@_COaAy@\\gAV[uAq@}BU[c@MABADGBOECKoCeAaFqCG{@Fi@DuBGc@i@w@AUa@uEeAZ_@s@Cs@?gAW{@[cD_Aw@WOkCW?[\\kFhBoTf@cG_DMeAEp@uHf@qFh@sC^}AtA}DgCmDaDwEmEgHoIcRmD}HgDsGyC_G}AqFYcEKw@[{@iDuFqC{DUm@S_Bw@_IMg@]g@aCqAOy@HeAd@{CBe@K]_Ac@}AOc@]g@uBYk@IKQMRkCH}@B[C{@eB_JN}An@iDZw@jAsAjB}@dBsAx@eA`AsBpDwJv@uAvEeH`@eA`@}B`AoNBmBKqC]_CkByFeGgPe@{Bk@sFo@uOh@}PnAwYEm@cByFuHkVsFiQc@kDQcL]}V]cM_@qH{AsLyEu^mD{Wi@}D_@yC]cC`@Mz@WxDgAvKyCbDaAzBkA`Ac@dHkBbAElCJl@G|@e@hCcEXmAj@uMHm@f@y@nKoNbMaX|@sAB?F?LIHe@GQbA{ElAgFr@qCHWQMi@a@oEeE_DuCiAkAuAgCy@eCc@mCMiDVwEl@_Dv@sBv@qAd@k@Q[iBrCUj@aAdEKr@",
+                                    "routes": [
+                                        {
+                                            "node_latitude": 39.076184,
+                                            "node_longitude": -77.042895,
+                                            "node_mode": "bike",
+                                            "node_mode_detail": "",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "",
+                                            "node_sequence": 1,
+                                            "note_travel_time": "2019-08-27T15:47:00",
+                                            "seg_distance": 0.0,
+                                            "segment_travel_time": 0.0
+                                        },
+                                        {
+                                            "node_latitude": 39.076184,
+                                            "node_longitude": -77.042895,
+                                            "node_mode": "destination",
+                                            "node_mode_detail": "",
+                                            "node_mode_stop": "",
+                                            "node_polyline": "",
+                                            "node_sequence": 2,
+                                            "note_travel_time": "2019-08-27T17:30:00",
+                                            "seg_distance": 0.0,
+                                            "segment_travel_time": 0.0
+                                        }
+                                    ],
+                                    "source": "Google",
+                                    "total_travel_time": 103
+                                }
+                            }
+                        ]
+                    ],
+                    "annually_VMT_reduction": 8087.83950052,
+                    "driving_time_per_day": 0,
+                    "emission_pollution_reduction ($)": 1795.4799731768023,
+                    "fuel_cost_reduction ($)": 51830.52074276902,
+                    "fuel_reduction (gallon)": 284.7830810042254,
+                    "option_name": "Biking",
+                    "system_congestion_reduction ($)": 983.481283263232,
+                    "travel_time_change (min)": 162.63709605150586,
+                    "travel_time_per_day (min)": 206
+                }
+            ],
+            "option_status": "succeed"
+        }
+    ],
+    "origin_lat": 39.180086,
+    "origin_long": -76.90312,
+    "vehicle_age": 5,
+    "vehicle_type": "passenger_car"
+}
